@@ -15,16 +15,15 @@ With the aid of state-of-the-art reinforcement learning algorithms, this project
 
 
 ## Note
- 
-```
-command to run if program contains helper info
-```
+This repository also includes an Asynchronous advantage actor-critic implementation for the surface polishing environment. However, the results are sub-optimal and requires further tuning of the network architecture and hyperparameters.
+
 
 ## Authors
 
-Lekhapriya Dheeraj Kashyap (lekha.dk@tamu.edu)
+Lekhapriya Dheeraj Kashyap (lekha.dk@tamu.edu) 
 Adithyaa Karthikeyan (adithyaa1996@tamu.edu)
 
 
 ## References
-* 
+* Template code for A2C using pytorch: https://github.com/zzzxxxttt/pytorch_simple_RL/blob/master/a2c_mtcar.py
+* Code for A3C mainly adopted from : https://github.com/philtabor/Youtube-Code-Repository/blob/master/ReinforcementLearning/PolicyGradient/A3C/pytorch/a3c.py
